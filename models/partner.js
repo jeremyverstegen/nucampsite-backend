@@ -13,7 +13,7 @@ const partnerSchema = new Schema({
     },
     featured: {
         type: Boolean,
-        required: false
+        default: false
     },
     description: {
         type: String,
